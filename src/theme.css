@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+body {
+	background: url("pictures/Penguins.jpg") top center no-repeat;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	
+	display: block;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+#menu {
+	width: 100%;
+  	color: white;
+  	
+  	display: block;
+  	text-align: center;
+  	
+  	background-color: #666;
+  	border-bottom: solid  #000;
+}
+
+#menu a {
+	padding: 0.5%;
+	font-size: 250%;
+  	display: inline-block;
+}
+
+#video {
+    z-index: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#content{
+	width: 98%;
+	height: 85%;
+	
+    border: none;
+	display: block;
+	margin: 1% auto;
+	
+	background-color: #666;
+}
+
+#player {
+	bottom: 0;
+
+	height: 5%;
+	width: 100%;
+	
+	position: fixed;
+	background-color: #666;
+}
+
+#container {
+
+    z-index: 1;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	position:fixed;
+    
+}
+
+#timebar {
+	height: 5px;
+	width: 100%;
+	background-color: #FFF;
+}
+
+.item {
+	margin: 2%;
+	width: 18%;
+	height: 20%;
+	float: left;
+	display: block;
+	background-color: #999;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+            
+::-webkit-scrollbar-button:start:decrement{
+   display: none;
+}
+
+::-webkit-scrollbar-button:end:increment{
+    display: none;
+}
+ 
+::-webkit-scrollbar-track-piece  {
+    background-color: #3b3b3b;
+}
+ 
+::-webkit-scrollbar-thumb:vertical {
+    background: #666 url(scrollbar_thumb_bg.png) no-repeat center;
+}

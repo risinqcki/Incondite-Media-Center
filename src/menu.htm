@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Incondite Media Center</title>
+		<link rel="stylesheet" type="text/css" href="theme.css" />
+		<script src="system.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<nav id="menu">
+				<a href="javascript:open('videos');">Weather</a>
+				<a href="javascript:open('videos');">TV</a>
+				<a href="javascript:open('videos');">Music</a>
+				<a href="javascript:open('videos');">Movies</a>
+				<a href="javascript:open('videos.htm');">Video</a>
+				<a href="javascript:open('images.htm');">Pictures</a>
+			</nav>
+				
+            <iframe id="content" src="videos.htm"></iframe>
+                
+			<div id="player">
+				<div id="timebar"></div>
+				<ul>
+					<li>foward</li>
+					<li>play</li>
+					<li>rewind</li>
+				</ul>
+			</div>
+		    <div id="video">	
+    		    <video autoplay="autoplay"><source src="" type="video/mp4"/></video>
+            </div>
+	    </div> <!-- End of container -->
+		
+	</body>
+</html>
